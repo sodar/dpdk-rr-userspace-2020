@@ -13,7 +13,7 @@ function main()
         --log-level pmd.net.mlx5:debug
     )
 
-    rr record -n ./build/dpdk-eal "${app_args[@]}"
+    rr record ./build/dpdk-eal "${app_args[@]}"
 }
 
 main "$@"
